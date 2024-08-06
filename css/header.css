@@ -1,0 +1,171 @@
+header {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    z-index: 25;
+    font-family: "Outfit";
+    
+
+    nav {
+        width: 85%;
+        height: 15vh;
+        background-color: white;
+
+        .container-fluid {
+            padding-bottom: 10px;
+            .navbar-toggler {
+                z-index: 2;
+                border: none;
+            }
+
+            .collapse {
+
+                ul {
+                    li {
+                        padding: 0 10px;
+                        font-weight: 500;
+
+                        .dropdown-menu {
+                            z-index: 2;
+                            border: none;
+                        }
+
+                        a {
+                            color: black;
+                            transition: all 0.3s ease;
+
+                            &:hover {
+                                color: #ffa832;
+                            }
+                        }
+                    }
+                }
+
+            }
+
+            .icons {
+                align-items: center;
+                gap: 15px;
+
+                a {
+                    color: black;
+                    font-size: 20px;
+                    transition: all 0.3s ease;
+
+                    &:hover {
+                        color: #ffa832;
+                    }
+
+                }
+
+                span {
+                    background-color: #ffa832;
+                    font-size: 12px;
+                }
+
+            }
+        }
+
+    }
+}
+
+@media (max-width: 769px) {
+    header {
+        nav {
+            height: 7vh;
+            align-items: center;
+
+            .container-fluid {
+
+                .navbar-toggler {
+                    font-size: 14px;
+                    border: none;
+                }
+
+                .navbar-brand {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+
+    .fvrt-product {
+        display: none;
+    }
+}
+
+@media (max-width: 512px) {
+    header {
+        
+        nav {
+            height: 7vh;
+            align-items: center;
+
+            .container-fluid {
+
+                .navbar-toggler {
+                    font-size: 14px;
+                    border: none;
+                }
+
+                .navbar-brand {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    header {
+        nav {
+            height: 7vh;
+            align-items: center;
+
+            .container-fluid {
+
+                .navbar-toggler {
+                    font-size: 14px;
+                    border: none;
+                }
+
+                .navbar-brand {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+@media (max-width: 1200px) {
+    header {
+        nav {
+            height: 7vh;
+            align-items: center;
+
+            .container-fluid {
+
+                .navbar-toggler {
+                    font-size: 14px;
+                    border: none;
+                }
+
+                .navbar-brand {
+                    img {
+                        width: 80px;
+                    }
+                }
+            }
+        }
+    }
+
+}

@@ -1,0 +1,213 @@
+main {
+    font-family: "Outfit";
+    .main-carousel {
+       
+        .container {
+            .carousel {
+                top: 15vh;
+
+                .carousel-inner {
+                    border-radius: 20px;
+
+                    .carousel-item {
+                        width: 100%;
+                        position: relative;
+
+                        .carousel-item-text {
+                            width: 33%;
+                            position: absolute;
+
+                            b {
+                                font-size: 2vw;
+                                font-weight: 400;
+                            }
+
+                            h1 {
+                                font-size: 4vw;
+                                font-weight: 600;
+                            }
+
+                            p {
+                                color: #838383;
+                                font-size: 1vw;
+                            }
+
+                            button {
+                                background-color: #ffa832;
+                                color: white;
+                                border: none;
+                                padding: 14px 37px;
+                                border-radius: 50px;
+                                font-size: 1vw;
+                                font-weight: 500;
+                                transition: all 0.5s ease;
+
+                                &:hover {
+                                    background-color: black;
+                                }
+                            }
+                        }
+
+                        .frst-item {
+                            top: 140px;
+                            left: 100px;
+                        }
+
+                        .scnd-item {
+                            top: 140px;
+                            right: 80px;
+                        }
+
+                    }
+
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    main {
+        .main-carousel {
+            .container {
+                .carousel {
+                    top: 8vh;
+
+                    .carousel-inner {
+
+                        .carousel-item {
+
+                            .carousel-item-text {
+                                button {
+                                    padding: 7px 15px;
+                                }
+                            }
+
+                            .frst-item {
+                                left: 60px !important;
+                            }
+
+                            .scnd-item {
+                                top: 0px;
+                                right: 60px !important;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 769px) {
+    main {
+        .main-carousel {
+            .container {
+                .carousel {
+                    top: 8vh;
+
+                    .carousel-inner {
+
+                        .carousel-item {
+
+                            .carousel-item-text {
+                                button {
+                                    padding: 7px 15px;
+                                }
+                            }
+
+                            .frst-item {
+                                top: 50px;
+                                left: 60px;
+                            }
+
+                            .scnd-item {
+                                top: 50px;
+                                right: 60px;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    main {
+        .main-carousel {
+            .container {
+                .carousel {
+                    top: 8vh;
+
+                    .carousel-inner {
+
+                        .carousel-item {
+
+                            .carousel-item-text {
+                                button {
+                                    padding: 7px 15px;
+                                }
+                            }
+
+                            .frst-item {
+                                top: 30px !important;
+                                left: 90px;
+                            }
+
+                            .scnd-item {
+                                top: 30px !important;
+                                right: 90px;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+
+}
+
+
+@media (max-width: 1200px) {
+    main {
+        .main-carousel {
+            .container {
+                .carousel {
+                    top: 8vh;
+
+                    .carousel-inner {
+
+                        .carousel-item {
+
+                            .carousel-item-text {
+                                button {
+                                    padding: 7px 15px;
+                                }
+                            }
+
+                            .frst-item {
+                                top: 100px;
+                                left: 90px;
+                            }
+
+                            .scnd-item {
+                                top: 100px;
+                                right: 90px;
+                            }
+
+                        }
+
+                    }
+                }
+            }
+        }
+    }
+}

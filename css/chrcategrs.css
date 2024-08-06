@@ -1,0 +1,112 @@
+main {
+    .chairs-categories {
+        width: 100%;
+        padding-top: 70px;
+
+        .container {
+            .row {
+                row-gap: 20px;
+
+                .chairs-catg-boxes {
+                    overflow: hidden;
+                    border-radius: 20px;
+                    position: relative;
+
+                    img {
+                        width: 100%;
+                        transition: all 1.5s ease;
+
+                        &:hover {
+                            transform: scale(1.1);
+                        }
+                    }
+
+                    .chairs-boxs-txt {
+                        position: absolute;
+                        top: 10px;
+                        left: 15px;
+                        width: 75%;
+
+                        h3 {
+                            font-size: 1.7vw;
+                        }
+
+                        p {
+                            font-size: 1.2vw;
+                            font-weight: 400;
+                            color: grey;
+                        }
+
+                    }
+
+                    .boxs-bttn {
+                        position: absolute;
+                        bottom: 0;
+                        right: 0;
+                        background-color: white;
+                        padding: 10px 0 0 10px;
+                        border-radius: 25px 0;
+
+                        button {
+                            color: white;
+                            border: none;
+                            padding: 7px 20px;
+                            border-radius: 50px;
+
+                        }
+
+                        .frst-clr {
+                            background-color: #9F6E48;
+
+                        }
+
+                        .scnd-clr {
+                            background-color: #181818;
+
+                        }
+
+                        .thrd-clr {
+                            background-color: #384D50;
+
+                        }
+
+                        .four-clr {
+                            background-color: #645F4D;
+
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    main {
+        .chairs-categories {
+
+            .container {
+                .row {
+
+                    .chairs-catg-boxes {
+
+                        .chairs-boxs-txt {
+
+                            h3 {
+                                font-size: 27px;
+                            }
+
+                            p {
+                                font-size: 18px;
+
+                            }
+
+                        }
+
+
+                    }
+                }
+            }
+        }
+    }
+}

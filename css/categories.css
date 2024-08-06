@@ -1,0 +1,53 @@
+main {
+    .shop-by-categories {
+        text-align: center;
+
+        h2 {
+            margin: 50px 0;
+        }
+
+        .container {
+            .row {
+                justify-content: center;
+                gap: 50px;
+
+                .categories {
+                    display: flex;
+                    flex-direction: column;
+
+                    .category-box {
+                        width: 130px;
+                        height: 130px;
+                        border-radius: 50%;
+                        overflow: hidden;
+
+                        img {
+                            width: 130px;
+                            height: 130px;
+                            border-radius: 50%;
+                            transition: all 0.4s ease;
+
+                            &:hover {
+                                transform: scale(1.1);
+                            }
+                        }
+
+                    }
+
+                    .category-box-txt{
+                        cursor: pointer;
+                        transition: all 0.3s ease;
+                        b{
+                            font-size: 15px;
+                        }
+
+                        &:hover{
+                            color: #FFA832;
+                        }
+                    }
+                }
+
+            }
+        }
+    }
+}

@@ -1,0 +1,132 @@
+main {
+    .you-will-love {
+        text-align: center;
+
+        h2 {
+            padding: 60px 0 40px 0;
+        }
+
+        .container {
+            .row {
+                .col {
+                    .card {
+                        border: none;
+                        position: relative;
+
+                        &:hover {
+                            .card-hover {
+                                display: flex;
+                            }
+                        }
+
+                        .card-hover {
+                            position: absolute;
+                            display: none;
+                            flex-direction: column;
+                            right: 5px;
+                            top: 15px;
+                            gap: 10px;
+                            transition: all 1s ease;
+
+                            a {
+                                text-decoration: none;
+                                color: black;
+
+                                i {
+                                    font-size: 1.2vw;
+                                    background-color: white;
+                                    padding: 10px;
+                                    border-radius: 50%;
+                                    transition: all 0.3s ease;
+
+                                    &:hover {
+                                        background-color: #FFA832;
+                                        color: white;
+                                    }
+                                }
+
+                                .bottom {
+                                    background-color: black;
+                                    color: white;
+                                }
+                            }
+                        }
+
+                        .card-body {
+                            text-align: start;
+
+                            h5 {
+                                font-size: 15px;
+                                cursor: pointer;
+                                transition: all 0.4s ease;
+
+                                &:hover {
+                                    color: #FFA832;
+                                }
+                            }
+
+                            p {
+                                font-size: 14px;
+                                color: grey;
+                                font-weight: 500;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+
+        .our-exclusive-brands {
+            margin-bottom: 60px;
+
+            .brands {
+
+                .container {
+                    display: flex;
+                    justify-content: center;
+
+                    .row {
+                        justify-content: center;
+
+                        .brand-logo {
+                            a {
+                                padding: 0 50px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+
+@media (max-width: 576px) {
+    main {
+        .you-will-love {
+
+            text-align: center;
+
+            h1 {
+                padding: 50px 0;
+            }
+
+            .container {
+                .row {
+                    .col {
+                        .card {
+                            .card-hover {
+                                a {
+                                    i {
+                                        font-size: 3vw;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
